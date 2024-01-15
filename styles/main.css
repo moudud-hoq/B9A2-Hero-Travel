@@ -172,6 +172,8 @@ input#b-input,
 .choose-card {
     display: grid;
     gap: 20px;
+    justify-content: center;
+    align-content: center;
     grid-template-areas:
         "o o o t t t"
         ". . th th . ."
