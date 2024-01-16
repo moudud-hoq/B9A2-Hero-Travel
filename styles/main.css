@@ -437,3 +437,7 @@ footer {
     width: 700px;
     background: rgba(212, 212, 214, 0.5);
 }
+
+.reserved p{
+    text-align: center;
+}
