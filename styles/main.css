@@ -189,38 +189,38 @@ input#b-input,
 }
 
 .image-one {
-    grid-column: span 6;
+    grid-column: auto / span 6;
 }
 
 .image-two {
-    grid-column: span 6; 
+    grid-column:  auto / span 6; 
 }
 
 .image-three {
-    grid-column: span 4; 
+    grid-column:  auto / span 4; 
 }
 
 .image-four {
-    grid-column: span 5;
+    grid-column:  auto / span 5;
 }
 
 .image-five {
-    grid-column: span 3; 
+    grid-column:  auto / span 3; 
 }
 
 .image-six {
-    grid-column: span 5;
+    grid-column:  auto / span 5;
 }
 
 .image-seven {
-    grid-column: span 7;
+    grid-column:  auto / span 7;
 }
 
 
 /* Choose Area */
 .choose {
     margin: 20px 0;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .choose-text {
@@ -289,12 +289,11 @@ input#b-input,
     font-size: 20px;
     font-weight: 800;
 }
-
 /* End Choose Are */
 
 /* Start Newsletter Area */
 .newsletter {
-    border: 5px solid greenyellow;
+    /* border: 5px solid greenyellow; */
     max-width: 1200px;
     display: flex;
     justify-content: space-around;
@@ -302,7 +301,7 @@ input#b-input,
 }
 
 .newsletter-content {
-    border: 2px solid #FF5400;
+    /* border: 2px solid #FF5400; */
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -372,7 +371,7 @@ footer {
 
 @media screen and (max-width:600px) {
     main {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         padding: 10px 10px 0;
     }
 
@@ -400,7 +399,7 @@ footer {
         border-radius: 8px;
 
         background-color: rgba(255, 255, 255, 0.30);
-        border: 1px solid rgb(0, 0, 0);
+        /* border: 1px solid rgb(0, 0, 0); */
     }
 
     #b-input,
@@ -428,7 +427,7 @@ footer {
     /* Choose Area */
     .choose {
         margin: 20px 0;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     .choose-text {
@@ -448,7 +447,6 @@ footer {
 
    /* Start Newsletter Area */
 .newsletter {
-    border: 5px solid greenyellow;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -486,7 +484,7 @@ width:  100%;
 }
 
 .newsletter-btn {
-    background: #FF5400;
+    background-color: #FF5400;
 }
 
 .newsletter-btn,
