@@ -323,21 +323,23 @@ input#b-input,
 /* Start Newsletter Area */
 .newsletter {
     /* border: 5px solid greenyellow; */
-    padding: 2rem 0;
+    padding: 1rem 0;
     max-width: 1150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 1rem;
 }
 
 .newsletter-content {
     border: 2px solid #FF5400;
+    border-radius: 4px;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: .8rem;
-    padding: 0 0 0 2.7rem;
+    padding: .2rem .2rem .4rem .2rem;
 }
 
 .newsletter-text {
@@ -345,11 +347,13 @@ input#b-input,
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    /* padding: 1rem 2rem 2rem 2.7rem; */
+
 }
 
 .newslwtter-form {
     /* border: 2px solid black; */
-    padding: 0 2.8em 0 0;
+    padding:  2.8em 0 0;
     min-width: 230px;
     display: flex;
     flex-direction: column;
