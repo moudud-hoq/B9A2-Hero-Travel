@@ -331,7 +331,7 @@ input#b-input,
 }
 
 .newsletter-content {
-    /* border: 2px solid #FF5400; */
+    border: 2px solid #FF5400;
     width: 50%;
     display: flex;
     flex-direction: column;
