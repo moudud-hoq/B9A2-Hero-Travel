@@ -18,13 +18,13 @@
 }
 
 main {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 50px 125px 0;
 }
 
 /* Start Banner Section */
 .banner-section {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner-image.png);
     background-position: center;
     background-size: cover;
@@ -70,7 +70,7 @@ main {
     padding: 10px 10px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.30);
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
 }
 
 #b-input,
@@ -163,10 +163,11 @@ input#b-input,
     width: 100%;
     height: auto;
 }
+
 /* end Popular Tour */
 
 /* Beautiful Places*/
-.beautiful-places-text{
+.beautiful-places-text {
     max-width: 650px;
     margin: 0 auto;
     padding: 3rem 2rem;
@@ -193,33 +194,33 @@ input#b-input,
 }
 
 .image-two {
-    grid-column:  auto / span 6; 
+    grid-column: auto / span 6;
 }
 
 .image-three {
-    grid-column:  auto / span 4; 
+    grid-column: auto / span 4;
 }
 
 .image-four {
-    grid-column:  auto / span 5;
+    grid-column: auto / span 5;
 }
 
 .image-five {
-    grid-column:  auto / span 3; 
+    grid-column: auto / span 3;
 }
 
 .image-six {
-    grid-column:  auto / span 5;
+    grid-column: auto / span 5;
 }
 
 .image-seven {
-    grid-column:  auto / span 7;
+    grid-column: auto / span 7;
 }
 
 
 /* Choose Area */
 .choose {
-    margin: 20px 0;
+    margin: 2rem 0;
     /* border: 2px solid red; */
 }
 
@@ -227,7 +228,7 @@ input#b-input,
     max-width: 643px;
     text-align: center;
     font-family: Mulish;
-    padding: 10px 5rem;
+    padding: 10px 4rem;
     margin: 0 auto;
     gap: 10px;
     /* padding: 10px 270px 20px 270px; */
@@ -235,6 +236,7 @@ input#b-input,
 
 #choose-title {
     color: #131318;
+    padding: 1rem 0;
     font-size: 35px;
     font-weight: 800;
 }
@@ -261,7 +263,7 @@ input#b-input,
 .handpicked,
 .service,
 .best-price {
-    max-width: 550px;
+    max-width: 700px;
     border-radius: 16px;
     padding: 32px 55px 32px 32px;
 
@@ -289,12 +291,14 @@ input#b-input,
     font-size: 20px;
     font-weight: 800;
 }
+
 /* End Choose Are */
 
 /* Start Newsletter Area */
 .newsletter {
     /* border: 5px solid greenyellow; */
-    max-width: 1200px;
+    padding: 2rem 0;
+    max-width: 1150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -367,6 +371,40 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .60rem;
+}
+
+.logo-design {
+    font-weight: 800;
+}
+
+.logo-span {
+    color: #FF5400;
+    font-weight: 800;
+}
+
+.footer-description {
+    max-width: 700px;
+    text-align: center;
+}
+
+.m{
+    color: #FF5400;
+font-size: 1em;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.hr{
+    width: 700px;
+    background: rgba(212, 212, 214, 0.5);
 }
 
 @media screen and (max-width:600px) {
@@ -445,92 +483,95 @@ footer {
 
     /* End Choose Are */
 
-   /* Start Newsletter Area */
-.newsletter {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
+    /* Start Newsletter Area */
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-.newsletter-content {
-    width: 100%;
-    min-height: 300px;
-    padding: 20px 36px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: .3rem;
-}
+    .newsletter-content {
+        width: 100%;
+        min-height: 300px;
+        padding: 20px 36px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: .3rem;
+    }
 
-.newsletter-text {
-    max-width: 650px;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-}
+    .newsletter-text {
+        max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
 
-.newslwtter-form {
-width:  100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-}
+    .newslwtter-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
 
-.content-input {
-    background: rgba(19, 19, 24, 0.05);
-}
+    .content-input {
+        background: rgba(19, 19, 24, 0.05);
+    }
 
-.newsletter-btn {
-    background-color: #FF5400;
-}
+    .newsletter-btn {
+        background-color: #FF5400;
+    }
 
-.newsletter-btn,
-.content-input {
-    border-radius: 8px;
-    border: none;
-    color: rgba(19, 19, 24, 0.30);
+    .newsletter-btn,
+    .content-input {
+        border-radius: 8px;
+        border: none;
+        color: rgba(19, 19, 24, 0.30);
 
-    font-size: .8em;
-    font-weight: 400;
+        font-size: .8em;
+        font-weight: 400;
 
-}
+    }
 
-.newsletter-img {
-    width: 50%;
-}
+    .newsletter-img {
+        width: 50%;
+    }
 
-.newsletter-img img {
-    width: 100%;
-    display: block;
-}
-/* End Newsletter Area */
-/* Popular TOur */
-.popular-tour-section {
-    padding: 2rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.popular-tour-text,
-.popular-image {
-    padding: .7rem 0 0 0;
-    max-width: 100%;
-}
+    .newsletter-img img {
+        width: 100%;
+        display: block;
+    }
 
-/* Beautiful Places */
-.beautiful-places-text{
-    padding: 1rem 1rem;
-    text-align: center;
-}
+    /* End Newsletter Area */
+    /* Popular TOur */
+    .popular-tour-section {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.place-images {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
-}
+    .popular-tour-text,
+    .popular-image {
+        padding: .7rem 0 0 0;
+        max-width: 100%;
+    }
+
+    /* Beautiful Places */
+    .beautiful-places-text {
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .place-images {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     /*responsive done*/
 
 }
