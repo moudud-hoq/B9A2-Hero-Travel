@@ -22,6 +22,33 @@ main {
     padding: 50px 125px 0;
 }
 
+/* Start Header Section */
+.logo-and-nav {
+    padding: 3rem 125px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+nav a.active {
+    color: #FF5400;
+  }
+  /* End the Header */
+
 /* Start Banner Section */
 .banner-section {
     /* border: 1px solid blue; */
@@ -400,15 +427,15 @@ footer {
     gap: 15px;
 }
 
-.m{
+.m {
     color: #FF5400;
-font-size: 1em;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.hr{
+.hr {
     width: 700px;
     background: rgba(212, 212, 214, 0.5);
 }
@@ -418,6 +445,20 @@ line-height: normal;
         /* border: 1px solid red; */
         padding: 10px 10px 0;
     }
+
+    /* Start Header Section */
+.logo-and-nav {
+    padding: 2rem 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
 
     /* Start Banner Section */
     .banner-section {
