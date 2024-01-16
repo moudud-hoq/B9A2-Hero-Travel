@@ -394,6 +394,12 @@ footer {
     text-align: center;
 }
 
+
+.footer-social-logo {
+    display: flex;
+    gap: 15px;
+}
+
 .m{
     color: #FF5400;
 font-size: 1em;
