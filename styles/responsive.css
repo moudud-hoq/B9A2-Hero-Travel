@@ -1,0 +1,183 @@
+
+@media screen and (max-width:600px) {
+    main {
+        /* border: 1px solid red; */
+        padding: 10px 10px 0;
+    }
+
+    /* Start Header Section */
+.logo-and-nav {
+    padding: 2rem 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+    /* Start Banner Section */
+    .banner-section {
+        padding: 1.9rem 0;
+    }
+
+    .banner-text {
+        padding: 0 1.6rem;
+    }
+
+    #banner-title {
+        font-size: 2.1em;
+        font-weight: 800;
+    }
+
+    /* banner form */
+    .banner-form form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding: 10px 30px;
+        border-radius: 8px;
+
+        background-color: rgba(255, 255, 255, 0.30);
+        /* border: 1px solid rgb(0, 0, 0); */
+    }
+
+    #b-input,
+    #time,
+    .find-now {
+        width: 255px;
+        height: 50px;
+    }
+
+    .find-now {
+        background: #FF5400;
+        color: #FFF;
+    }
+
+    /* Popular Tour */
+    .popular-tour-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popular-tour-text {
+        padding-right: 0rem;
+    }
+
+    /* Choose Area */
+    .choose {
+        margin: 20px 0;
+        /* border: 2px solid red; */
+    }
+
+    .choose-text {
+        padding: 10px 2rem;
+    }
+
+    #choose-title {
+        font-size: 1.3em;
+    }
+
+    .choose-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* End Choose Are */
+
+    /* Start Newsletter Area */
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .newsletter-content {
+        width: 100%;
+        min-height: 300px;
+        padding: 20px 36px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: .3rem;
+    }
+
+    .newsletter-text {
+        max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .newslwtter-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .content-input {
+        background: rgba(19, 19, 24, 0.05);
+    }
+
+    .newsletter-btn {
+        background-color: #FF5400;
+    }
+
+    .newsletter-btn,
+    .content-input {
+        border-radius: 8px;
+        border: none;
+        color: rgba(19, 19, 24, 0.30);
+
+        font-size: .8em;
+        font-weight: 400;
+
+    }
+
+    .newsletter-img {
+        width: 50%;
+    }
+
+    .newsletter-img img {
+        width: 100%;
+        display: block;
+    }
+
+    /* End Newsletter Area */
+    /* Popular TOur */
+    .popular-tour-section {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popular-tour-text,
+    .popular-image {
+        padding: .7rem 0 0 0;
+        max-width: 100%;
+    }
+
+    /* Beautiful Places */
+    .beautiful-places-text {
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .place-images {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*responsive done*/
+
+}
