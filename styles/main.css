@@ -110,23 +110,18 @@ input#b-input,
 
 /* Popular TOur */
 .popular-tour-section {
-    color: rgba(19, 19, 24, 0.70);
     border: 2px solid brown;
-
-    max-width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    padding: .60rem 0;
-
+    max-width: 1150px;
+    border: 5px solid greenyellow;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-
 }
 
 .popular-tour-text {
     border: 1px solid black;
     padding-right: 3.5rem;
+    width: 50%;
 }
 
 .popular-title {
@@ -150,7 +145,7 @@ input#b-input,
 }
 
 .popular-image {
-    width: 100%;
+    width: 50%;
 }
 
 .popular-image img {
@@ -174,23 +169,54 @@ input#b-input,
 
 /* end popular tour */
 
-/* Places with Images */
+/* Beautiful Places*/
 
-.beautiful-places {
-    border: 10px solid firebrick;
-    max-width: 100%;
-    height: 100%;
+.beautiful-places-text{
+    max-width: 650px;
     margin: 0 auto;
-
+    padding: 3.5rem 2rem;
+    text-align: center;
 }
 
 .place-images {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.place-images img {
     width: 100%;
     height: 100%;
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
 }
+
+.image-one {
+    grid-column: span 6;
+}
+
+.image-two {
+    grid-column: span 6; 
+}
+
+.image-three {
+    grid-column: span 4; 
+}
+
+.image-four {
+    grid-column: span 5;
+}
+
+.image-five {
+    grid-column: span 3; 
+}
+
+.image-six {
+    grid-column: span 5;
+}
+
+.image-seven {
+    grid-column: span 7;
+}
+
 
 /* Choose Area */
 .choose {
